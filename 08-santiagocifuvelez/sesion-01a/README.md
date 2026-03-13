@@ -104,8 +104,7 @@ shrinking woman, de 1981”. (Bacanas, s. f.)
 
 Enlaces de sonidos: 
 
-Sonido de Coca – Cola: https://youtu.be/_5OXU
-dAB2M?si=V0CapFhNcm9h2Vng  
+Sonido de Coca – Cola: https://youtu.be/_5OXU-dAB2M?si=V0CapFhNcm9h2Vng 
 
 Sonido Colab con Atari: 
 https://youtu.be/NZjkHdX5E1I?si=C1d8lrjFHugek26G 
