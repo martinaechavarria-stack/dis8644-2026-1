@@ -51,7 +51,7 @@ Corriente es cuánta energía pasa. Entre más corriente, más electrones pasan.
 
 - **Resistencia:** limite de velocidad
 
-##imagenes del proceso
+## imagenes del proceso
 
 
 ## Post clase
