@@ -1,6 +1,6 @@
 # sesion-01b
 
-## Encargo 17/03/26 ##
+## Encargo 02 ##
 
 The Internet's Own Boy: The Story of Aaron Swartz relata la vida de Aaron Swartz, quien fue un prodigio de la programación. Desde muy pequeño mostró gran interés por la tecnología: a los seis años ya programaba en el computador de su padre y a los doce creó Infobase, una enciclopedia colaborativa en línea. Más adelante participó en el desarrollo de herramientas importantes para internet y fue cofundador de Reddit. También colaboró con el proyecto de Creative Commons, que promueve el acceso libre al conocimiento.
 
