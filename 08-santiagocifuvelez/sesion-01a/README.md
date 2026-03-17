@@ -166,6 +166,7 @@ antepasadas y del sonido que nos rodea.
   <img src="https://static.dezeen.com/uploads/2017/05/Imogen-Heap-and-Mi.Mu-gloves_dezeen_1.jpg" width="30%">
   <img src="https://static.wikia.nocookie.net/doblaje/images/5/58/Bjork.jpg/revision/latest?cb=20250506001514&path-prefix=es" width="30%">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Psilodump_at_Birdie_2006.jpg" width="30%">
+   <img src="https://i.scdn.co/image/ab6761610000e5eb304d7278aac1f8994055480b" width="30%">
 </div>
 
 Referencias (Barcelona, 2019) (Oliva, 2018) 
