@@ -52,4 +52,6 @@ Cuero
 
 Código de color de resistencia 
 
+### Fotos de la clase y apuntes
+
 
