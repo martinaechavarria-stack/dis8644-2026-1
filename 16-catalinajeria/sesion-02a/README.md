@@ -42,3 +42,5 @@
 | R5                   |  1  |  1  |  1  |  1  |
 | R6                   |  1  |  1  |  1  |  1  |
 
+![texto alt para accesibilidad](./imagenes/ejerciciocircuito03.jpg)
+
