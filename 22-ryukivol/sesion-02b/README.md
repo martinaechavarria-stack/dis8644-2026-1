@@ -13,7 +13,12 @@ V = I * R OHM
 - 10 capacitor/capacitor ¨ceramico¨ no polarizado 104 
 
 ## Anotaciones del circuito 
+- # Al cambiar R2 
 - 10 K parpadeo lento
 - 1K parpadeo muy rapido 
 - 220 se mantiene prendida
-- si se le agrega una fotoresistencia se mantiene parpadeando hasta tapar la luz y baja su velocidad 
+- si se le agrega una fotoresistencia se mantiene parpadeando hasta tapar la luz y baja su velocidad
+- ## Al cambiar C1
+- 100 UF el parpadeo es mas lento
+- 10 UF parpadeo normal  
+- 1 UF no parpadea 
