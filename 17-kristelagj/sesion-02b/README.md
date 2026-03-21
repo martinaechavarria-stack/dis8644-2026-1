@@ -90,8 +90,6 @@ Tocar la cabeza del LED, y cuando sientas una parte plana, significa que ese lad
 **Cables dupont:** Son cables flexibles con conectores en los extremos que sirven para unir componentes en una placa de pruebas sin necesidad de soldar. Son el "pegamento" que comunica todas las piezas de tu proyecto.
 No existe un material conductor absoluto.. Los de cobre son los conductores por excelencia.
 
-**Conector de batería:**
-
 **Batería:** ​Es un dispositivo que convierte energía química en eléctrica. Sirve como la fuente de energía (el "alimento") para que tu circuito pueda funcionar sin estar conectado a un enchufe.
 
 **potenciómetro B100k:** Es una resistencia variable. Sirve para que tú puedas controlar manualmente la intensidad de algo, como subir el volumen de un parlante o variar el brillo de una luz LED al girar su perilla. Mide la potencia. Tiene un comportamiento lineal.
