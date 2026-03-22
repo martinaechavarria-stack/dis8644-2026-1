@@ -33,7 +33,7 @@ Se nos mostraron ejemplos de circuitos en la pizarra para enseñarnos que no sol
 
 #### Primer circuito
 
-![primer circuito](./imagenes/LQXTLC-1.jpg)
+![primer circuito](./imagenes/lqxtlc-1.jpg)
 
 | loquitoportilocoloco | D1  | D2  | D3  | D4  |
 | ---                  | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Se nos mostraron ejemplos de circuitos en la pizarra para enseñarnos que no sol
 
 #### Segundo circuito
 
-![segundo circuito](./imagenes/LQXTLC-2.jpg)
+![segundo circuito](./imagenes/lqxtlc-2.jpg)
 
 | loquitoportilocoloco | D1  | D2  | D3  |
 | ---                  | --- | --- | --- |
@@ -60,7 +60,7 @@ Se nos mostraron ejemplos de circuitos en la pizarra para enseñarnos que no sol
 
 #### Tercer circuito
 
-![tercer circuito](./imagenes/LQXTLC-3.jpg)
+![tercer circuito](./imagenes/lqxtlc-3.jpg)
 
 | loquitoportilocoloco | D1  | D2  | D3  | D4  |
 | ---                  | --- | --- | --- | --- |
