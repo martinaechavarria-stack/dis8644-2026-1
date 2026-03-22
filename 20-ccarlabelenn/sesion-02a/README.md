@@ -24,7 +24,7 @@ facutura propia jeje
 |aluminio |cuero   |
 ---
 # encargo loquitoportilocoloco
-
+![cover-tour-de-france](./imagenes/cover-tour-de-france.jpg)
 + Análisis Kraftwerk:
 
 personalmente me fascinó, si bien no es una banda que conocia o el tipo de música que escucharía pero este álbum cambió esa visión, mientras sus discos anteriores eran mucho más de deshumanización y futuro industrial este álbum se siente mucho más humano. 
