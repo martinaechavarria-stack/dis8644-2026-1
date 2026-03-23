@@ -15,3 +15,4 @@ V = R × I
 + resistencia (R): se mide en ohm
 + corriente (I): se mide en ampere (A)
 
+![primera-hoja](./imagenes/primera-hoja.jpeg)
