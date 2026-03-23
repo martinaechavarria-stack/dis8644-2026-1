@@ -83,7 +83,7 @@ Se nos entregaron unos fotorresistores (LDR), los cuales no tienen polaridad. La
 
 ## Encargo
 
-Personalmente, nunca me ha ido bien en las cosas que involucran cálculos (saqué 528 puntos en la PAES M1), mucho menos en física a pesar de que la disfrutaba ya que solo tenía que seguir fórmulas que por alguna razón nunca me salían bien, por lo que quiero trabajar en ésto haciendo ejercicios de la ley de ohm, ya que tendremos que ver estas formulas y ejercicios durante todo el semestre por lo que me niego a seguir con el mismo nivel de resolución de ecuaciones. Para ésto, buscaré ejercicios en google y los resolveré en mi bitácora física por comodidad. Estos son los resultados:
+Personalmente, nunca me ha ido bien en las cosas que involucran cálculos (saqué 528 puntos en la PAES M1), mucho menos en física a pesar de que la disfrutaba ya que solo tenía que seguir fórmulas que por alguna razón nunca me salían bien, por lo que quiero trabajar en esto resolviendo ejercicios de la ley de ohm, ya que por lo que entendí la clase pasada tendremos que ver estas formulas y ejercicios durante todo el semestre, por lo que me niego a seguir con el mismo nivel de resolución de ecuaciones. Para esto, buscaré ejercicios en google y los resolveré en mi bitácora física por comodidad. Estos son los resultados:
 
 ![Foto de ejercicio ley de ohm](./imagenes/ejercicios-ohm1.jpg)
 
