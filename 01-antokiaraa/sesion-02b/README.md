@@ -54,3 +54,16 @@ Cerámico:
 
 En el esquemático se representa así: ||
 
+### Preguntas
+
+- ¿Se pueden usar leds RGB en este tipo de circuitos?
+- ¿Los esquemáticos se pueden armar en físico de distintas maneras? 
+- ¿Las resistencias se echan a perder?
+- ¿De qué sirve conectar resistencias en serie?
+- ¿Cómo sé qué tipo de condensador debo usar? 
+- ¿Cómo puedo saber si mi batería ya se está descargando?
+- ¿Qué otras fuentes de energía pueden usarse?
+- ¿Cómo puedo saber si un led está quemado?
+- ¿Se puede conectar más de una fuente de energía? 
+- ¿Se pueden hacer circuitos sin usar protoboard?
+
