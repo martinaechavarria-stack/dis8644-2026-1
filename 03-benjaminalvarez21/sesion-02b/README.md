@@ -21,3 +21,25 @@ estuve buscando como subir videos a github y esta fue una de las formas que me s
 video de como subir videos
 
 https://www.youtube.com/watch?v=ssMNCIUPOLI
+
+### encargo preguntas
+
+1. ¿puedo concectar mas de dos baterias a la protoboard?
+
+2. ¿se puede incendiar la protoboard si se quema algo?
+
+3. ¿que pasa si conceto o intento conectar algun cable o una resistencia en el mismo hoyito de la protoboard?
+
+4. ¿se pueden conectar dos potenciometros en el mismo circuito?
+
+5. ¿existenten otro tipo de sensores como el de luz?
+
+6. ¿que otro tipo de luces se pueden concetar a las protoboards
+
+7. ¿cuantos condensadores puedo conectar en el mismo circuito?
+
+8. ¿si tengo mas de un sensor de luz conectado en el mismo circuito, afecta de manera distina la luz al led o es igual?
+
+9. ¿cuanto es el voltaje maximo que puede tener una bateria?
+
+10. ¿la protoboard tiene algun maximo de voltaje que pueda resistir?
