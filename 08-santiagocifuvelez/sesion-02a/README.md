@@ -18,6 +18,8 @@ Vamos a ver que tal.
 
 Con la cuota de dinero que dimos a la clase, los profesores y ayudantes del aula nos hicieron the sweetest maquina’s kit ever, el cual tenía nuestro nombre del repositorio de GitHub y todos los elementos que usaremos para aprender.
 
+![Ejercicio 1](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-02a/imagenes/ej-1.jpg)
+
 ## 2.	Resistencias, colores y uso.
 
 
