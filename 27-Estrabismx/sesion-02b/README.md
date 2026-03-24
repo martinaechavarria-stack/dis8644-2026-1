@@ -53,9 +53,9 @@ Está compuesto por un alma de metal (normalmente cobre) que deja pasar los elec
 
 Simplemente se insertan las patas de los componentes (como LEDs o resistencias) y los cables en los orificios para conectarlos. Los bordes suelen tener líneas largas (buses) para la energía, mientras que el centro tiene filas divididas para separar los componentes. Es la herramienta perfecta para experimentar.
 
-[Imagen1]
-[Imagen2]
-[Imagen3]
+![Protoboard](./imagenes/protoboard.webp)
+![Protoboard](./imagenes/protoboard-ejemplo.webp)
+![Protoboard](./imagenes/protoboard-diagrama.jpg)
 
 <br>
 
@@ -71,15 +71,19 @@ Se le puede decir que es un amortiguador. Si la energía de la batería parpadea
 
 Posee un sistema de codigo en su cara frontal
 
-[Imagen]
+![Capacitor Ceramico](./imagenes/capacitor-ceramico.jpg)
 
-[Imagen2]
+![Capacitor Ceramico](./imagenes/codigo-ceramico.jpg)
 
 #### Electrolítico ####
 
 > Posee polaridad, la franja con el signo menos ($-$) indica la pata negativa.
 
+![Capacitor electrolitico](./imagenes/capacitor.webp)
 
+![Meme](./imagenes/capacitor-meme.jpg)
+
+<br>
 
 ### - Potenciometro ###
 ### - Chip 555 ###
