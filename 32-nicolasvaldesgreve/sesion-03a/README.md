@@ -39,4 +39,17 @@ Nos agrupamos con dos compañeros más e intentamos armar el circuito. En el pri
 
 En el documental se habla sobre la vida del ingeniero y músico chileno José Vicente Asuar, pionero de la música electroacústica chilena, el cual generalmente se reconoce por ser el creador del "COMDASUAR", siendo éste el primer computador musical en latinoamérica el cual el mismo Asuar dijo que era considerado como tecnología punta en los años 70'. Al inicio del documental hablan de Asuar como un músico misterioso, alguien que hizo algo impresionante, pero que debido a la falta de interés que hubo en su época desapareció y costó bastante ubicarlo y ponerse en contacto con él para poder crear el video que hemos visto. 
 
-Asuar cuenta que la música está en muchos elementos de la naturaleza, recordando escuchar un concierto de pájaros, los cuales tenían tonos agudos, graves y habían distintas velocidades sin un verdadero órden, al igual que la música electroacústica que es una abstracción de los sonidos que nos rodean tal como nos cuenta Claudio Asuar.
+Asuar cuenta que la música está en muchos elementos de la naturaleza, recordando escuchar un concierto de pájaros, los cuales tenían tonos agudos, graves y habían distintas velocidades sin un verdadero órden, al igual que la música electroacústica que es una abstracción de los sonidos que nos rodean tal como lo dice Claudio Asuar.
+
+José Asuar dice que al momento de hacer una composición de música electroacústica no se necesita una partitura ya que se hace en un estudio y el resultado es como un cuadro, pero que es interesante el tener una partitura como un método analítico para entender todo lo que hay dentro de la obra y así poder reconocer los símbolos con algún estímulo, razón por la que creó una simbología la cual se muestra en las siguientes imagenes:
+
+![Simbología Variaciones Espectrales Asuar](./imagenes/asuar-simbologia1.jpeg)
+
+![Simbología Variaciones Espectrales Asuar](./imagenes/asuar-simbologia2.jpeg)
+
+(Éstas imagenes se muestran dentro del documental de Variaciones Espectrales, no me pertenecen)
+
+José Vicente Asuar creó el COMDASUAR (Computador Musical Digital Analógico Asuar) en el año 1978, desarrollándolo desde cero y de manera autónoma. El computador funcionaba como una herramienta intrumental y compositora, adelantándose a la tecnologías futuras pero que lamentablemente, como se mencionó al inicio de todo el texto, éste fue abandonado debido a la falta de interés en las personas de la época, por lo cual el COMDASUAR terminó abandonado dentro de una casa de campo que tenía José Asuar.
+
+(Imagen de documental, no me pertenece)
+![COMDASUAR en casa de campo](./imagenes/comdasuar.jpeg)
