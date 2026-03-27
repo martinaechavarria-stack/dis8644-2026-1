@@ -54,17 +54,29 @@ Con mi grupo tomamos la decisión de tener un proceso personal ya que la moviliz
 ![prueba]
 
 Cómo leer un esquemático
+
 Reconocer cada componente
+
 → Los símbolos de los componentes son la mitad de la historia. Cada símbolo debe acompañarse de un nombre y un valor
+
 → **Valores:** definir qué es un componente, importante
+
  ↳ Resistores, capacitores e inductores: el valor nos dice cuántos ohm, farad o henrios tiene
+ 
  ↳ Circuito integrado = nombre del chip (555)
+ 
 → **Nombre:** 1 o 2 letras y un número
+
  ↳ Tipo de componente
+ 
  R = resistores → R1, R2, R3
+ 
  C = capacitores → C1, C2, C3
+ 
  U = circuito integrado → U1, U2, U3
-Transistores = Q
+ 
+ Transistores = Q
+ 
 El nombre nos ayuda a hacer referencia a partes en el esquemático
 
 https://cursos.mcielectronics.cl/2019/06/18/como-leer-un-esquematico/
