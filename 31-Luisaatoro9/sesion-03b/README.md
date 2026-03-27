@@ -44,10 +44,17 @@ Para dos resistencias en paralelo, la fórmula simplificada que mencionaste (mul
 * **o´eilly - willey - libros**
 * **Link libros:** https://docs.google.com/document/d/1gTPNpDtJLYWSLITBKJXJEM3XxiRnhSkOY_hltDzEYis/edit?usp=sharing
 * **Link conversión:** https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code
-<img width="320" height="898" alt="Captura de pantalla 2026-03-27 110857" src="https://github.com/user-attachments/assets/b1f4ec71-2f1e-45fd-ab79-70cfeff5ae25" />
-<img width="325" height="934" alt="Captura de pantalla 2026-03-27 111123" src="https://github.com/user-attachments/assets/db52f551-42f6-4eda-a30f-ddb77377c0e2" />
-<img width="320" height="958" alt="Captura de pantalla 2026-03-27 112136" src="https://github.com/user-attachments/assets/fd6c567c-9a92-4e4e-851a-d7175e6af731" />
+<img width="340" height="898" alt="Captura de pantalla 2026-03-27 110857" src="https://github.com/user-attachments/assets/b1f4ec71-2f1e-45fd-ab79-70cfeff5ae25" />
+<img width="330" height="934" alt="Captura de pantalla 2026-03-27 111123" src="https://github.com/user-attachments/assets/db52f551-42f6-4eda-a30f-ddb77377c0e2" />
+<img width="330" height="958" alt="Captura de pantalla 2026-03-27 112136" src="https://github.com/user-attachments/assets/fd6c567c-9a92-4e4e-851a-d7175e6af731" />
 
+# Datos
+* **Para comprar cosas en barrio San Diego, donde todo se compra presencial. Busquen las direcciones en Google MAPS.**
+* **Electronica Ibarra es la más barata si pagan en efectivo.**
+* **Electronica Hobby es la más grande, pero a veces tiene filas largas.**
+* **Electronica ORFALI tiene la señora más amable, pero a veces es un poco cara.**
+* **Electronica MINY tiene componentes más extraños.**
+* **Dentro de Galería SUR se encuentran desarmadurías donde encuentran componentes más exóticos aún.**
 
 # **Ejercicios:**
 
@@ -57,9 +64,6 @@ R1 va a ser un pote
 R4 va a ser un LDR
 C1 va ser de 100n
 <img width="1000" height="541" alt="atari-punk" src="https://github.com/user-attachments/assets/40ef318c-a4b2-4f98-8b45-ac2595e7eef9" />
-
-
-
 
 
 ## 4. Reflexiones de Clase
