@@ -55,9 +55,7 @@ Con mi grupo tomamos la decisión de tener un proceso personal ya que la moviliz
 
 - Cómo leer un esquemático
 
-Diagrama esquemático → Representación simplificada de los elementos en un circuito
-
-No sólo muestra cómo están conectados los componentes, sino cómo influye la electricidad a través del circuito.
+**Diagrama esquemático:** Representación simplificada de los elementos en un circuito. No sólo muestra cómo están conectados los componentes, sino cómo influye la electricidad a través del circuito.
 
 ¿Dónde fluye la corriente?
 
