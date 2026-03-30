@@ -59,6 +59,8 @@ Funciona como un temporizador de ***un solo disparo***. A diferencia del astable
 
 Cuando recibe un pulso negativo en el pin 2, la salida pasa a estado alto durante un tiempo determinado y luego regresa automáticamente a su estado de reposo.
 
+***Una explicación más tecnica y coloquial a la vez sería:*** Se recibe un input en el *2* (que según el esquemático, varía por el potenciometro pero sigue siendo constante), al cual posteriormente se le regulado su *velocidad* con la resistencia 1, y donde el capacitor 3 genera un *conteo* al cargarse y descargarse. Todo este conjunto de procesos hace que se genere un pulso que se apaga luego de un determinado tiempo, basicamente, es como la subida de defensea y resisitencia mágica de Warwick en LoL al presionar la habilidad *E* 
+
 ![Esquematico Monstable sesion-03a](../sesion-03a/imagenes/sesion-03a-ej-01-sch.png)
 
 #### Atari Punk Console ####
@@ -66,6 +68,8 @@ Cuando recibe un pulso negativo en el pin 2, la salida pasa a estado alto durant
 La Atari Punk Console (APC) es un sintetizador de audio DIY (***Do it yourself*** [Larga vida al DIY]) muy popular. Tiene como base 2 chips 555, su nombre viene de los sonidos similares a las consolas Atari.
 
 Usa un modo astable para crear pulsos y uno monoestable para controlar su duración. Con dos perillas controlas el tono y el ritmo, creando ruidos electrónicos, chirridos y efectos *lo-fi* como dirían los lolos
+
+En palabras más propias y no tan GPT. Tenemos un 555 que genera un pulso astable (intermitente), controlado por un potenciometro ligado a los pin 2 y 7, el cual termina saliendo por el pin 3 ingresando al 2do chip 555 por el input 2, para que luego inicie el *conteo* para apagar la señal (funcionamiento propio del monostable), este siendo regualdo por el capacitor 3 y así generar un sonido más unico 
 
 <br>
 
@@ -97,7 +101,6 @@ Durante la clase se mencionaron autores, conceptos y webs utilites para tener en
 
 <br>
 
-<br>
 
 #### Robert Forrest Mims ####
 
@@ -141,7 +144,7 @@ https://www.555-timer-circuits.com/
 ![Ejemplo Servo Tester](./imagenes/captura-de-pantalla2.png)
 
 
-***ATARI PUNK, LUGARES DE ELECTRONICA, CHIPS QUEMADOS Y SUS REFLEXIONES*** 
+***LUGARES DE ELECTRONICA, CHIPS QUEMADOS Y SUS REFLEXIONES*** 
 
 ---
 
