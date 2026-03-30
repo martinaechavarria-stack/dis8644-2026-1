@@ -28,7 +28,7 @@ ___
 Luego, como segunda parte de la clase, desarrollamos el circuito “Atari Punk Console”
 ![ejercicio](./imagenes/ejercicio.png)
 
-+ R1 potenciometro
++ R1 potenciómetro
 + R4 LDR
 + C1 de 100n 
 
