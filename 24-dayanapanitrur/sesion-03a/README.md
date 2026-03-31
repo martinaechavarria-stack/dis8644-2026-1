@@ -26,9 +26,12 @@ Para esto hicimos grupo de 3 y utilizamos los 3 interruptores que nos dieron.
 ### Observaciones:
 
 Aquí los interruptores (SW1, SW2, SW3) están conectados en serie con las resistencias (R2, R3).
+
 El SW3 pareciera sonar con una menor frecuencia que SW1, y SW2 es el intermedio entre ambos.
-Por lo tanto también se escucha SW3 con un tono más grave que SW2 Y SW1, me imagino que por la cantidad de resistencias que colocamos en serie entre los interruptores (hay más resistencia llegando al sw3 y menos en el sw1)
+Por lo tanto también se escucha SW3 con un tono más grave que SW2 Y SW1, me imagino que por la cantidad de resistencias que colocamos en serie entre los interruptores (hay más resistencia llegando al sw3 y menos en el sw1).
+
 El potenciometro tambien cambia la tonalidad del sonido para todos.
+
 Cabe mencionar que al momento de presionar dos o tres interruptores solo se escucha el sonido del último interruptor que se presionó, o es lo que al menos nosotras percibimos:)
 
 ---
@@ -44,3 +47,7 @@ Todo esto se desarrollaba en un contexto íntimo y abstracto que resultaba difí
 La visión de Asuar tanto como de músico y como ingeniero lo ayudó explorar y trabajar en el resultado de su propio trabajo electrónico, Asuar creaba la música y también creó el medio para trabajar en esta. Sin saberlo, trabajó con sistemas que anticiparon estándares actuales, como la norma MIDI, integró procesos que hoy en día son herramientas cotidianas para cualquier músico.
 
 Finalmente, el documental relata cómo Asuar continuó su labor de forma personal y casi privada, utilizando sintetizadores y computadores comerciales. Este repliegue hacia la intimidad se debió, en parte, a un contexto nacional donde el interés por su trabajo no creció al ritmo de la tecnología. Irónicamente, a medida que el avance tecnológico se aceleraba, la figura de Asuar quedaba relegada, evidenciando una falta de valoración institucional frente a un hombre que iba décadas adelante de su entorno.
+
+### Referencia:
+
+dereojoCL. (2016, diciembre 22). Variaciones espectrales [Video]. YouTube. https://www.youtube.com/watch?v=sJ9EZWBZee8
