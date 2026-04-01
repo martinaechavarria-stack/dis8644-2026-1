@@ -114,7 +114,7 @@ de misaa (<https://misaa.cc/projects/llluviametropolitana.html> / <https://githu
 
 ![proyectos1](./imagenes/proyectos1.png)
 
-## encargo-01a
+## Encargo-01a
 
 Ver la película Sisters with Transistors, y enfocarse en una de las artistas, investigar sobre su vida y obra, hacer un reporte escrito en texto, con fuentes y referencias.
 

@@ -101,7 +101,7 @@ simulación de circuitos electrónicos: las primeras imágenes son en relación 
 
 para ver: <https://www.tinkercad.com/things/643XxFrK9hd-smashing-wolt-lahdi/editel>
 
-## encargo-01b
+## Encargo-01b
 
 Ver el documental the internet's own boy, sobre la vida de Aaron Swartz, y escribir un reporte con fuentes y referencias sobre lo aprendido.
 
