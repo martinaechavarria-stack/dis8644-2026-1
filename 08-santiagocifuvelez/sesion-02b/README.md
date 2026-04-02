@@ -10,6 +10,9 @@ El día de hoy, vamos a dividir esta sección así:
 1.	Elementos esenciales para el uso de circuitos que integran el chip 555.
 2.	El chip 555
 3.	Circuito con el chip 555
+4.	Ejercicio de práctica (Monostable)
+5.  10 preguntas 
+
 
 ## 1. Elementos esenciales para el uso de circuitos que integran el chip 555.
 Para comenzar, vamos a aprender los nombres de las diversas y nuevas herramientas de trabajo que permitirán que suceda la magia en nuestros circuitos. 
@@ -25,6 +28,10 @@ Para comenzar, vamos a aprender los nombres de las diversas y nuevas herramienta
 ![Circuito](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-02b/imagenes/img4.png)
 
 A manera de conclusión, la luz LED puede parpadear o muy rápido o muy lento, y esto depende de varias cosas; de la resistencia de entrada y de la capacitancia del capacitor/condensador electrolítico polarizado. 
+
+## 4.	Ejercicio de práctica (Monostable)
+![Ejercicio de practica]()
+## 5.  10 preguntas 
 
 Fin c:
 
