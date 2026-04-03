@@ -8,7 +8,7 @@ Pero mis amiguis me compartieron sus apuntes y me comentaron lo visto en clases 
 + Centro: alineación 
 + Derecha: salida 
 
-![astable](./imagenes.astable.jpeg)
+![circuito](./imagenes/astable.jpeg)
 
 Resistencias: se encuentran resistencias en mega → se miden en Ω 
 
