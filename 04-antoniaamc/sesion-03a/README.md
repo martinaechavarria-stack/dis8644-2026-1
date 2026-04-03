@@ -8,19 +8,19 @@ Recomendaciones: Editorial matar Chile
 
 Oscilador de libre funcionamiento sin estados estables, generando una onda cuadrada continua (reloj).
 
-**Funcionamiento:** no tiene estados estables. Alterna automáticamente entre "alto" y "bajo" continuamente, funcionando como oscilador.
-**Salida:** onda cuadrada o rectangular (tren de pulsos).
-**Componentes:** determinado por dos resistencias (R1, R2) y un capacitor (C1) para la frecuencia y el ciclo de trabajo.
-**Ej de aplicacion:** luces LED intermitentes
+- **Funcionamiento:** no tiene estados estables. Alterna automáticamente entre "alto" y "bajo" continuamente, funcionando como oscilador.
+- **Salida:** onda cuadrada o rectangular (tren de pulsos).
+- **Componentes:** determinado por dos resistencias (R1, R2) y un capacitor (C1) para la frecuencia y el ciclo de trabajo.
+- **Ej de aplicacion:** luces LED intermitentes
 
 ### Multivibrador Monoestable
  
 Tiene un único estado estable y produce un solo pulso de duración definida tras un disparo externo (temporizador).
 
-**Funcionamiento:** Posee un solo estado estable (generalmente en reposo o "bajo"). Al recibir un pulso externo, cambia al estado "alto" durante un tiempo específico y regresa automáticamente al estable.
-**Salida:** Un único pulso de duración predeterminada.
-**Componentes:** El tiempo del pulso está determinado por una resistencia (R) y un capacitor (C).
-**Ej de aplicacion:** temporizadores.
+- **Funcionamiento:** Posee un solo estado estable (generalmente en reposo o "bajo"). Al recibir un pulso externo, cambia al estado "alto" durante un tiempo específico y regresa automáticamente al estable.
+- **Salida:** Un único pulso de duración predeterminada.
+- **Componentes:** El tiempo del pulso está determinado por una resistencia (R) y un capacitor (C).
+- **Ej de aplicacion:** temporizadores.
 
 
 videos explicativos: 
@@ -38,7 +38,7 @@ videos explicativos:
 ( :0 )
 
 
-Frecuencia: cada cuánto pasa algo (suceso y tiempo).
+**Frecuencia:** cada cuánto pasa algo (suceso y tiempo).
 El tiempo que hay mientras se repite un ciclo es una onda. Ese tiempo es el que se llama **periodo**, ese periodo **define una onda**.
 
 ej periodos importantes:
