@@ -112,6 +112,10 @@ Resistencias:
 
 Condensadores:
 
+| # | Capacitancia | Voltaje |
+|---|-------------|--------|
+| 1 | 100 µF      | 35 V   |
+
 - Zona 4
 
 Resistencias:
@@ -122,6 +126,8 @@ Resistencias:
 | 2 | rojo   | café   | dorado  | café    | rojo    | rojo   |
 
 Condensadores:
+
+No hay
 
 
 
