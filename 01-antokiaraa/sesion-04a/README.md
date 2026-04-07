@@ -28,6 +28,11 @@ Cerámicos:
 - 104 = 100.000 picoF (10 + último número cantidad de 0)
   - = 100 nanoF
   - = 0,1 mF (equivalentes)
+ 
+##  encargo-04a
+
+- destripar un dispositvo electrónico, documentar con texto e imagen el proceso, distinguir los elementos de la PCB que hemos estudiado como R y C y chips.
+
 
 
 
