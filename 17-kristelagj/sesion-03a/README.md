@@ -160,6 +160,15 @@ https://anitocircuits.com/how-to-read-a-schematic-circuit-diagram/
 
 Opinión y análisis de " Variaciones Espectrales"
 
+“Ame mucho la música, fue mi gran amor, pero quizás no la ame demasiado” 
+
+No había visto este documental cuando correspondía y fue una buena decisión que me dio la vida. He logrado hacer sonidos que jamás pensé en realizar y he ido a presentaciones de sonidos que nunca pensé en estar sentada escuchando como nadadores hacían sonido. Aquí es cuando me di cuenta que hay sonidos en donde uno menos lo espera, osea ¿cuando creería yo que en una piscina se podrían hacer tan obra o pensar también que pájaros junto al oscilamiento de árboles podrían crear una partitura sin fin? Amo mucho la música, pero quizás no la he amado demasiado para darme cuenta de esos detalles. 
+
+Es increíble saber que Chile tiene una historia en la electroacústica de más de 30 años y todos los interesados en el tema deben saberlos —porque no todo el mundo debe saberlo, si no los que realmente quieren saberlo—  y me da mucha pena por otro lado que siempre pase lo mismo que un sujeto no esté de acuerdo y todos no estarán de acuerdo no teniendo su propia opinión y por eso nadie “pesca” los avances o lo nuevo que está llegando. Yo lo entiendo perfectamente, estaba en un colegio científico-humanista y nadie prestaba atención a los proyectos que estaban fuera de ese rango… Por favor, tener un poco más de sensibilidad a la hora de observar y  analizar para no perder a esos grandes artistas porque uno se desmotiva, como le pasó a Asuar. 
+
+Adentrándome ya a lo concreto que me llamó la atención del documental es la constante comparación con la música docta, como una hace tal cosa y esta hace esto pero con más rango de expresividad, a pesar de ser repetitivo, me parece justo para que así las personas vean que no son “sonidos molestos” sino una forma de expresarse mucho más amplia y hay que seguir insistiendo. Algunos se expresan pintando, nosotros con sonidos extremos que no aún no son costumbre de la sociedad. 
+
+Otro punto que me llamó la atención es la idea de siempre tener un lenguaje para comunicarse o plasmarlo de forma gráfica, no dejar esto en el aire. Esto viene sucediendo desde los egipcios con los pictogramas en las murallas ya que ellos querían poder dejar plasmado y comunicar que estaba sucediendo, bueno, acá sucede lo mismo, querer dejar esto que es ambiguo —al igual que el habla— plasmado y que otros lo puedan replicar. Por esta misma razón es que se crearon las partituras. Todo esto me recuerda a lo que hizo Felipe Zansana, profesor y tipógrafo de nuestra escuela creando la tipografía “ Variación 1” la cual hacía que todas las personas que “mixeaban” se pudieran comunicar.
 
 
 
