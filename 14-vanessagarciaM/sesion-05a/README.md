@@ -71,6 +71,8 @@ Hicimos un circuito y ¡RUIDO!
 
 Mientras más grande la capacitancia, más lento oscila 
 
+___
+
 Schmitt Trigger 
 
 Según Wiki: un disparador Schmitt (Schmitt Trigger) es un circuito comparador con histéresis que convierte señales analógicas ruidosas o de flancos lentos (sinusoidales, triangulares) en ondas cuadradas limpias y estables. Utiliza dos umbrales de voltaje distintos (superior e inferior) para evitar conmutaciones falsas causadas por ruido cerca del punto de referencia. 
