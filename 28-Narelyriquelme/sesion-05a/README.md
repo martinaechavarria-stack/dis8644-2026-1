@@ -1,4 +1,5 @@
 # sesion-05a
+07 abr
 ### Apuntes
 No pude asistir a esta clase pero le pedi a mis compañeros que me pasaran sus apuntes y me explicaran un poco lo que fue esta clase
 ## Resumen de Clase: Síntesis, Lógica y Hardware Modular
