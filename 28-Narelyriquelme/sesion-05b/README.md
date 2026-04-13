@@ -1,6 +1,5 @@
 # sesion-05b
-10 abr
-## Apuntes 
+## Apuntes 10 abr
 ![apuntes](./imagenes/apuntes.jpg)
 
 ## utilizamos un chip nuevo
