@@ -13,7 +13,7 @@
 - <img width="500" height="476" alt="circuito-100426" src="https://github.com/user-attachments/assets/976d3ff5-44f6-4045-8de1-6d5c00b4e599" />
 
 
-  Nuevo circuito 555 + secenciador con chip 4017
+  Nuevo circuito 555 + secuenciador con chip 4017
 
 
 
@@ -23,7 +23,7 @@
   Potenciometro aumenta o disminuye a velocidad de los leds 
 
 
-# solemnre?¡?¡?¡?¡
+# solemne?¡?¡?¡?¡
 - 3 modulos
 - modular
 - carcasa externa de cartón
