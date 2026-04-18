@@ -67,3 +67,7 @@ Ahora vamos a profundizar un poco más con unos ejemplos explicados en clase.
 ### NOT
 
 ![NOT](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-05a/imagenes/img6.png)
+
+### NAND 
+
+![NAND](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-05a/imagenes/img7.png)
