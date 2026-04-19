@@ -53,4 +53,7 @@ Aunque ya sonaba, el resultado no era el que esperábamos. El sonido era muy "pl
   
 + Aqui una prueba del sonido que logramos obtener antes de las variaciones.
 
-video
+https://github.com/user-attachments/assets/c6b2f5e4-d381-4418-994f-0781fdd90e9c
+
+
+
