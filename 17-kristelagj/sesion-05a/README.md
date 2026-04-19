@@ -6,6 +6,7 @@
 - Misaa
 
 Hoy se nos presentó que realizaremos de primera entrega: un sintetizador
+
 **¿Qué es un sintentizador:** es un instrumento musical electrónico que genera, modifica y manipula señales eléctricas para producir sonido artificialmente. A diferencia de los instrumentos acústicos, crea timbres desde cero mediante osciladores y circuitos (analógicos o digitales), permitiendo imitar instrumentos reales o diseñar sonidos totalmente nuevos.
 
 **Oscilador:** tomar un gesto para que sea suficientemente amigable
