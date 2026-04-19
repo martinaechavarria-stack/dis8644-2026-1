@@ -11,3 +11,8 @@ gates: compuertas que permiten el paso del sonido
 + logica combinacional
 + chip 4093: riquezas a nivel sonoro 
 
+![imagenes](./imagenes/circuito.jpeg)
+
+hicimos grupo para la primera solemne de taller, anto, nico y yo jejej, practicamos este primer circuito junto a nico y logramos que funcionara luego de muchos intentos fallidos, olvidamos conectar muchas veces cosas realmente basicas pero lo logramos!
+
+este estaba compuesto por el 555 que nos permitio que el led encendiera y el 4093 que nos permitio que sonara 
