@@ -48,7 +48,7 @@ Al principio no funcionó e intentamos todo lo que Misa nos decía que podía se
 
 ![foto](./imagenes/clock.gif)
 
-Mi primer gif wuoooo 
+Mi primer gif en taller wuoooo 
 
 ---
 
