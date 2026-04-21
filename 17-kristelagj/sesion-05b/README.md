@@ -36,7 +36,7 @@ Hoy implementamos el chip 4017
 
 ![clock](imagenes/clock-generator.png)
 ![clock](imagenes/clock-proto.jpg)
-![secuenciador](imagenes/secuenciador-as-an-img.jpg)
+![secuenciador](imagenes/secuenciador-as-an-img.jpeg)
 
 
 ### post-clase
