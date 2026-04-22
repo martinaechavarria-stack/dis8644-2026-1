@@ -1,10 +1,10 @@
-# grupo-01
+# grupo-06
 
 ## integrantes
 
-- nombres apellidos github
-- nombres apellidos github
-- nombres apellidos github
+- Santiago Cifuentes (santiagocifuvelez)
+- Paula Fuentes (paulafuentesm)
+- Kristel Ladrón de Guevara (kristelagj)
 
 ## descripción del sintetizador realizado
 

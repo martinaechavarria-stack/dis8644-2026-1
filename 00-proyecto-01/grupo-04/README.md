@@ -2,13 +2,7 @@
 
 ## integrantes
 
-- nombres apellidos github
-- nombres apellidos github
-- nombres apellidos github
-
 ## descripción del sintetizador realizado
-
-3 párrafos explicando el proyecto
 
 imagen del sintetizador en su contexto
 
