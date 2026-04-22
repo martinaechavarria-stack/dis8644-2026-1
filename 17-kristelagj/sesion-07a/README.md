@@ -22,6 +22,9 @@ Misaa nos enseñó sus proyectos nuevamente desde su página ( https://misaa.cc/
 
 https://ammitechnologies.com/diferencias-montaje-smt-tht/
 
+![tht smt](imagenes/tht-smt.png) 
+
+
 
 
 ### imágenes de proceso
