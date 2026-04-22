@@ -39,6 +39,11 @@ Nos frustramos y como menciona, lo haremos de nuevo, lo cual nos retrasó en cie
 https://github.com/user-attachments/assets/f6a878d9-8f7b-4323-9d94-7d768596e73b
 
 
+https://github.com/user-attachments/assets/9e04852c-9ef2-4be5-85fc-c07c88aff6c9
+
+
+
+
 
 ### post-clase
 
