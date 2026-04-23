@@ -14,6 +14,13 @@ El circuito utiliza un temporizador NE555 configurado como oscilador para genera
 
 Finalmente, la señal generada es enviada a un amplificador de audio basado en el integrado LM386, que permite aumentar la potencia de la señal para que pueda ser reproducida por el parlante. En conjunto, el circuito permite generar secuencias de sonidos rítmicos y melódicos mediante la coordinación entre la señal de reloj y los osciladores.
 
+![sintetizador](./imagenes/img-sintetizador.jpeg)
+
+
+https://github.com/user-attachments/assets/905e3b0a-8652-41ce-81cf-a35a47ac748d
+
+
+
 ## proceso y resultados del reloj y secuenciador
 
 Logramos comprender y ensamblar el circuito de reloj y secuenciador que transforma pulsos eléctricos en un ciclo visual continuo, dividiendo el trabajo en dos etapas principales. Por la parte izquierda del diagrama armamos el generador de reloj utilizando un temporizador 555 configurado en modo astable, el cual emite un pulso constante de voltaje por su pin 3; comprobamos que el ritmo de estos pulsos lo podemos controlar y hacer más rápido o más lento simplemente ajustando el condensador C1 y la perilla del potenciómetro. Luego, conectamos esta señal a la parte derecha del circuito, donde usamos un chip contador de décadas CD4017 como secuenciador. Al hacer que el pulso del 555 entre al pin 14 del 4017, logramos sincronizar ambos componentes: cada latido le indica al 4017 que avance un paso, activando en orden las salidas Q0 a Q3 (pines 3, 2, 4 y 7).  Como resultado final, conseguimos que los 4 LEDs conectados a estas salidas se enciendan uno por uno en fila, creando un ciclo visual infinito!.
