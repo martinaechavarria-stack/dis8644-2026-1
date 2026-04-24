@@ -16,7 +16,7 @@ para adaptar los componentes a su carcasa, decidimos alargar los cables dupont u
 ![imagenes](./imagenes/el-tincado-de-frente.jpeg)
 ![imagenes](./imagenes/el-tincado-iso.jpeg)
 
-audio o video del sintetizador en acción
+adjuntamos video de el tincado funcionando a la perfección: <https://youtu.be/hrRX-CuZbwI>
 
 ## proceso y resultados del reloj y secuenciador
 
