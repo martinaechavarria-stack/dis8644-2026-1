@@ -52,7 +52,7 @@ incluir origen de materiales, decisiones de posiciones de los componentes, decis
 
 Usamos dos protoboards de 830 puntos para realizar el circuito del clock, el secuenciador y el sintetizador. Primero nos enfocamos en hacer la extensión de los positivos y negativos con cables, para asegurar una alimentación común y ordenada en todo el circuito. En una protoboard de 400 puntos realizamos el circuito de salida de audio. Esta protoboard se conectó a las anteriores compartiendo los mismos positivos y negativos, permitiendo así que todas las etapas del circuito quedarán interconectadas y funcionando en conjunto.
 
-![foto2](./imagenes/foto2.jpg/)
+
 
 Las conexiones en la protoboard se realizaron principalmente con cables dupont macho-macho. En el caso de los potenciómetros del 555 y del 386, estos se extendieron mediante cables macho-hembra para facilitar su manipulación. Finalmente, el parlante se conectó utilizando caimanes con conectores macho.
 
