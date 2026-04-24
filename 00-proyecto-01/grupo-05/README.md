@@ -79,6 +79,8 @@ Al integrar el secuenciador CD4017, logramos transformar los pulsos del 555 en u
 * **Ciclo de Bucle Infinito:** Mediante la conexión del Pin 15 (Reset) al Pin 10, logramos que el chip reinicie la cuenta inmediatamente al llegar a la cuarta nota, eliminando silencios y creando un bucle continuo de 4 pasos.
 * **Habilitación Operativa:** La conexión del Pin 13 (Clock Enable) a negativo garantizó que el chip se mantenga siempre receptivo a los pulsos, asegurando la fluidez constante de la melodía sin interrupciones.
 
+https://github.com/user-attachments/assets/ca56fdc2-1322-43c1-b279-125fb3cec267
+
 **Etapa 3: Control de Frecuencia y Conmutación (Transistores 2N2222)**
 
 En esta etapa, los transistores actúan como interruptores lógicos que seleccionan qué nota debe sonar en cada paso de la secuencia. Orientando el transistor con su lado plano hacia nosotros, realizamos las siguientes conexiones:
@@ -122,9 +124,26 @@ incluir modificaciones en posición, chips, parámetros, valores, etc.
 
 ## carcasas de cartón
 
-textos, imágenes
+La carcasa del sintetizador se desarrolló utilizando **cartón corrugado reciclado**, principalmente por su **disponibilidad, bajo costo y facilidad para hacer pruebas y modificaciones rápidas**. Esto permitió **iterar el diseño** sin depender de procesos más complejos. Al mismo tiempo, el material se mantiene visible como parte del resultado, sin ocultar su condición de **prototipo**.
 
-incluir origen de materiales, decisiones de posiciones de los componentes, decisiones estéticas, pruebas, resultados obtenidos.
+### Estructura  
+Consiste en una **caja cerrada con una apertura frontal**, que funciona como punto de visualización. Esta permite ver parcialmente el interior (específicamente los **LEDs**) mientras el resto del circuito se mantiene contenido, ayudando a **ordenar visualmente el sistema** y evitar la sobreexposición de componentes.
+
+### Distribución  
+Responde a una **lógica de uso**: los **controles** se ubicaron en la parte superior para facilitar la manipulación directa, mientras que los **LEDs** se posicionaron en la cara frontal, alineados, permitiendo una **lectura clara de la secuencia o estado del sistema**. El circuito se organizó internamente para no interferir entre **interacción y visualización**, manteniendo además acceso para ajustes.
+
+![proyecto-01-grupo-05](imagenes/acercamientos-interfaz-cartonproyecto-01-grupo-05.jpg)
+
+### Proceso  
+El proceso de diseño comenzó revisando *referentes y sintetizadores existentes*, para luego definir qué queríamos mostrar y cómo queríamos que funcionara la interfaz. A partir de esto, se realizó un **modelado 3D** inicial, considerando la posibilidad de fabricación mediante **corte láser**, lo que finalmente no se pudo concretar. En su lugar, se utilizó el modelo como base para generar una **plantilla calcada sobre láminas (A1)**, que luego se transfirió a **cartón corrugado** para corte y armado manual.
+
+https://github.com/user-attachments/assets/30f01b61-87bd-45d3-be96-2d65fa92969e
+
+![proyecto-01-grupo-05](imagenes/plantilla-a1-interfaz-carton-proyecto-01-grupo-05.jpg)
+
+La mayoría de las pruebas se realizaron entre el *modelado 3D* y la *medición directa de los componentes* en la protoboard, utilizando como referencia su forma y dimensiones dentro de la interfaz. Esto permitió ajustar posiciones, proporciones y relaciones entre los elementos antes del armado final.
+
+En conjunto, la carcasa permite *contener el sistema, ordenar la interacción y hacer visible parte de su funcionamiento*.
 
 ## interconexión entre módulos
 
@@ -138,7 +157,7 @@ imagen
 
 video / audio
 
-## aprendizajes y errores
+## Aprendizajes y errores
 
 A lo largo del desarrollo del OPEN-BEAT KRAFT, enfrentamos varios desafíos técnicos que nos permitieron profundizar en el funcionamiento de la electrónica analógica y digital. Estos fueron los errores más comunes y cómo los resolvimos:
 1. Estabilidad del Reloj (NE555)
