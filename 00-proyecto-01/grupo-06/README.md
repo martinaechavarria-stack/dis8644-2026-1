@@ -29,7 +29,7 @@ Comencemos:
 
 ## descripción del sintetizador realizado
 
-**Precarias**, llamado así por las diferentes situaciones inseguras ( errores o la constante broma de que todo iba a explotar) que nos hacía pasar el circuito antes de consolidarse como sintetizador funcional. Un sintetizador construido sobre protoboards e integrado en una carcasa de cartón diseñada bajo criterios de experiencia de usuario (UX). El diseño consiste de una interfaz múltiple: una zona táctil (fotoresistor) y otra con potenciómetros situados en el frente y los lateral izquierdo, teniendo así una experiencia multisensorial. 
+**Precarias**, llamado así por las diferentes situaciones inseguras (errores o la constante broma de que todo iba a explotar) que nos hacía pasar el circuito antes de consolidarse como sintetizador funcional. Este sintetizador esta construido sobre protoboards e integrado a una carcasa de cartón diseñada bajo criterios de experiencia de usuario (UX). El diseño consiste de una interfaz múltiple: una zona táctil (fotoresistor) y otra con potenciómetros situados en el frente y los lateral izquierdo, teniendo así una experiencia con un movimiento combinado (girar-precionar)
 El sistema se organiza en cuatro etapas, cada una realizada por un circuito integrado:
 
 + **Módulo 1:** consta del Clock (555) en modo astable que genera una oscilación constante. Utiliza un potenciómetro para regular carga y descarga, permitiendo un control sobre el ritmo y la actividad del sistema. Además cuenta con un fotoresistor la cual ayuda en la velocidad de la frecuencia.
@@ -40,9 +40,13 @@ El sistema se organiza en cuatro etapas, cada una realizada por un circuito inte
   
 + **Módulo 4:** La etapa final de precarias es la salida (386) donde se encarga de procesar las señales de las zonas anteriores para amplificarlas. A través de este chip, la señal se proyecta hacia el parlante, controlado a través de un potenciómetro.
 
-¿Pero qué distingue a Precarias de otros sintetizadores? Precarias incorpora una diversidad de condensadores, los cuales influyen directamente en la variación de las frecuencias y sonido del sintetizador. Además, el dispositivo cuenta con dos interfaces interactivas múltiple: por un lado, un fotoresistor como control de velocidad, y por otro, potenciómetros, que permiten un control manual más preciso sobre distintos parámetros del sistema.
+¿Pero qué distingue a Precarias de otros sintetizadores? Precarias consta de dos interfaces interactivas: por un lado, un fotoresistor como control de velocidad, y por otro, potenciómetros, que permiten un control manual más preciso sobre distintos parámetros del sistema.
 
-foto y video 
+![sinte](imagenes/listo.jpg)
+
+Video 1: https://youtube.com/shorts/EZvZhcw6Tzs?feature=share
+
+Video 2: https://youtube.com/shorts/NSwSG6KaihU?feature=share
 
 ## proceso y resultados del reloj y secuenciador
 
@@ -52,13 +56,13 @@ foto y video
 El proceso comenzó con la instalación del chip 555 en la protoboard. Se conectan los flujo de energía conectando las energias (cables rojo: positivo y negro: negativo). Luego, se procedió a alimentar el integrado vinculando al pin 1 (tierra) al negativo mediante un cable verde y la pin 8 (VCC) al positivo con un cable café claro.
 
 #### Paso 2: Puentes y Red de Temporización
-Para configurar el ciclo del chip, se realizó una interconexión física entre los pins 6 y 2 utilizando un cable café. Desde este nodo, se derivó una conexión hacia un arreglo de resistencias (1k) y un condensador (100 uf), componentes esenciales para definir la frecuencia de la señal. Adicionalmente, la pata 7 se conectó a través de un cable verde a una línea de la protoboard (línea 22), donde se integró a una serie de resistencias para completar la red de descarga.
+Para configurar el ciclo del chip, se realizó una interconexión física entre los pins 6 y 2 utilizando un cable café. Desde este nodo, se derivó una conexión hacia un arreglo de resistencias (1k) y un condensador (100 uf), componentes esenciales para definir la frecuencia de la señal. Adicionalmente, la pin 7 se conectó a través de un cable verde a una línea de la protoboard (línea 22), donde se integró a una serie de resistencias para completar la red de descarga.
 
 #### Paso 3: Salida de Señal e Interconexión de Módulos
-En la pata 3 (salida) se instaló un cable naranja conectado a un LED rojo con su respectiva resistencia de protección, cerrando el circuito en el polo negativo para visualizar la oscilación. Desde esta misma pata 3, se extendió un cable verde que sirve como puente de interconexión con el siguiente módulo del sistema (4017).
+En la pin 3 (salida) se instaló un cable naranja conectado a un LED rojo con su respectiva resistencia de protección, cerrando el circuito en el polo negativo para visualizar la oscilación. Desde esta misma pata 3, se extendió un cable verde que sirve como puente de interconexión con el siguiente módulo del sistema (4017).
 
 #### Paso 4: Ajustes Finales y Estabilización
-Finalmente, se conectó lel pin 5 (control de voltaje) hacia el negativo a través de un condensador sin polaridad. Se aseguró también que el pin 4 (reset) estuviera vinculado al polo positivo para evitar reinicios accidentales, garantizando que el módulo estuviera listo al ver funcionar el LED parpadeando. Por último, Se soldaron la entrada de batería con las entradas dirigidas al negativo y positivo ( cables dupont) , ya que fue la mayor causante de problemas al salir repetidas veces.
+Finalmente, se conectó LED pin 5 (control de voltaje) hacia el negativo a través de un condensador sin polaridad. Se aseguró también que el pin 4 (reset) estuviera vinculado al polo positivo para evitar reinicios accidentales, garantizando que el módulo estuviera listo al ver funcionar el LED parpadeando. Por último, Se soldaron la entrada de batería con las entradas dirigidas al negativo y positivo (cables dupont), ya que fue la mayor causante de problemas al salir repetidas veces.
 
 ![555](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/00-proyecto-01/grupo-06/imagenes/555.gif)
 
@@ -71,25 +75,28 @@ Finalmente, se conectó lel pin 5 (control de voltaje) hacia el negativo a trav�
 Para asegurar el funcionamiento del contador, se realizaron las conexiones de control. El pin 15 (Reset) se conectó al pin 10 para determinar el ciclo de conteo. Asimismo, los pins 14 (Clock) y 13 (Clock Inhibit) se conectaron al polo negativo mediante resistencias de 10k uf, garantizando la estabilidad de las señales de entrada.
 
 #### 3. Paso 3:Interconexión de Salidas
-Se reservaron las conexiones de los botones (pins 2, 3, 4 y 7) para la etapa final ( sentíamos que era lo más difícil). Con el fin de verificar que el circuito funcionaba correctamente, se instalaron LEDs de prueba. Estos se conectaron desde las cuatro patillas de salida mencionadas hacia las filas 19, 16, 13 y 10 de la protoboard.
+Se reservaron las conexiones de los botones (pins 2, 3, 4 y 7) para la etapa final (sentíamos que era lo más difícil). Con el fin de verificar que el circuito funcionaba correctamente, se instalaron LEDs de prueba. Estos se conectaron desde las cuatro patillas de salida mencionadas hacia las filas 19, 16, 13 y 10 de la protoboard.
 
 #### 4. Paso 4: FUNCIONANDO :)))
-Para proteger los componentes, el cátodo de cada LED se conectó al negativo a través de una resistencia de 10k . Esta configuración permite visualizar la secuencia de luces manipulada por el potenciómetro del 555 y confirmar el desplazamiento de la energía para después cambiar los negativos hacia el siguiente módulo 4093.
+Para proteger los componentes, el cátodo de cada LED se conectó al negativo a través de una resistencia de 10k. Esta configuración permite visualizar la secuencia de luces manipulada por el potenciómetro del 555 y confirmar el desplazamiento de la energía para después cambiar los negativos hacia el siguiente módulo 4093.
 
 ![4017](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/00-proyecto-01/grupo-06/imagenes/4017.gif)
 
-incluir texto e imágenes sobre cableado, pruebas, resultados obtenidos.
+![prueba](imagenes/proceso/secuenciador-as-an-img.jpeg)
 
 ## proceso y resultados de osciladores y amplificador
 
-### Chips 4093
+### Chips 4093 y Chips 386
+
+![4093 y 386](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/00-proyecto-01/grupo-06/imagenes/4093-y-386.jpg)
+
 Secuenciador se transforman en frecuencias audibles mediante el uso de compuertas Schmitt Trigger.
 
 #### Paso 1: Alimentación
-Conectamos los pines 14 al positivo (VCC) y 7 al negativo (GND). Se instala un condensador cerámico (100nF) entre ambas líneas, ubicándolo lo más cerca posible de los pines de alimentación del chip.
+Conectamos el pin 14 al positivo (VCC) y 7 al negativo (GND). Se instala un condensador cerámico/no polarizado (100nF) entre ambas líneas, ubicándolo lo más cerca posible de los pines de alimentación del chip.
 
 #### 2. Paso 2: Configuración de Osciladores (Steps) 
-Conectamos de las cuatro compuertas NAND del 4093 se configura para recibir un pulso del secuenciador y finalizando cada STEP con la soldadura en el potenciador para poder moverse sin inconvenientes por la carcasa:
+Conectamos de las cuatro compuertas NAND del 4093 que se configura para recibir un pulso del secuenciador y finalizando con cada STEP doldandolo en el su potenciometro correspondiente para así poder moverse sin inconvenientes en la carcasa:
 
 + **STEP 1:** La señal proveniente del pin 3 del 4017 se ingresa a la pin 1. El pin 2 se vincula al potenciómetro RV2 (100k) y el condensador C5 (10uF). La salida resultante (pin 3) se dirige al nodo común MIX tras pasar por una resistencia (1k). Logrando un ruido más grave y con poco volumen por el tamaño del condensador.
 .
@@ -115,23 +122,29 @@ La señal proveniente del nodo MIX se dirige a un potenciómetro (100k) para el 
 #### 3. Paso 3: Salida hacia el Parlante
 La salida de audio se obtiene desde pin 5. Desde este punto, se conecta el capacitor (100uF) en serie, el cual va dirigido hacia el parlante (LS1). Para completar el circuito, el terminal restante del parlante se conecta al nodo de tierra (GND). Finalizando con la soldadora de estas conexiones para poder tener una seguridad de conexión. 
 
-imágenes sobre cableado, pruebas, resultados obtenidos.
-
+![proceso](imagenes/proceso/proceso_1.jpeg)
 ## modificaciones realizadas a los circuitos originales
 
 ### Proceso:
 
-Al iniciar el proceso, implementamos el circuito original entregado y modificado por Misa con el fin de validar su funcionamiento base y asegurar que la instalación fuera correcta antes de experimentar. A pesar de enfrentar complicaciones técnicas, como errores de conexión y resistencias quemadas, logramos completar el circuito con el íbamos a trabajar.
+Al iniciar el proceso, implementamos el circuito original entregado y modificado por Misaa con el fin de validar su funcionamiento base y asegurar que la instalación fuera correcta antes de experimentar. A pesar de enfrentar complicaciones técnicas, como errores de conexión y resistencias quemadas, logramos completar el circuito con el íbamos a trabajar.
 
-video santiago en su casa cuando lo arreglo
+video de santi: https://youtube.com/shorts/FAeN6yMwqWY?feature=share
 
 Una vez lista la etapa anterior, procedimos a intervenir el circuito del chip 386 para maximizar la potencia y el tono de la salida de audio. Basándonos en la premisa de que valores menores de capacidad alteran la respuesta en frecuencia, sustituimos los condensadores de 100 uf por unos de 0,46 uf en la etapa de amplificación. Con este ajuste, no funcionaba bien el sistema, así que volvimos a poner el anterior condensador.
 
 Posteriormente, probamos realizar cambios en los condensadores vinculados a los potenciómetros. Al utilizar inicialmente valores elevados (10uf), el volumen no alcanzaba la intensidad deseada y buscábamos una mayor variedad tonal, por lo que decidimos sustituirlos por condensadores de 0,47 uf
 Este ajuste resultó mucho más satisfactorio, ya que proporcionó un sonido notablemente más agudo y potente. Sin embargo, al querer una diversidad de mantener una diversidad de texturas sonoras dentro del mismo sistema, decidimos conservar el primer condensador (de izquierda a derecha) con su valor original de 10 uf, logrando así un contraste dinámico entre los diferentes tonos del sintetizador.
 
+Videos del mut: 
 
-video del mut.
+![proceso](imagenes/proceso/mut.jpeg)
+
+1: https://youtube.com/shorts/5PpWNb0iPO0?feature=share
+
+2: https://youtube.com/shorts/UJPJm3hy5Yk?feature=share
+
+3: https://youtube.com/shorts/5tdJ-7rMd7w?feature=share
 
 Tras completar el ajuste de los condensadores, el siguiente paso fue sustituir el potenciómetro por un fotorreceptor (sensor de luz) del primer módulo para experimentar con nuevas formas de interacción. Este cambio nos gustó más para el proyecto, ya que permitía una modulación dinámica del sistema: al aumentar la intensidad lumínica, el dispositivo generaba un sonido más rápido, mientras que en condiciones de oscuridad la velocidad disminuye. 
 
@@ -150,9 +163,11 @@ Finalmente, para solucionar el problema recurrente de desconexión entre la bate
 
 PDF: (https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/00-proyecto-01/grupo-06/imagenes/esquematico-modificado.pdf)
 
-incluir texto, imágenes sobre modificaciones realizadas a los circuitos originales, incluyendo el proceso de diseño, pruebas y resultados obtenidos.
+![esquemático precarias](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/00-proyecto-01/grupo-06/imagenes/precarias-esquemaatica.jpg)
 
-incluir modificaciones en posición, chips, parámetros, valores, etc.
+video: https://youtube.com/shorts/y3wmMXkBmb8?feature=share
+
+video 2: https://youtube.com/shorts/o5TqyCJIAiU?feature=share
 
 ## carcasas de cartón
 
@@ -175,9 +190,13 @@ Al final, notamos que teníamos un constante problema con los cables de la bater
 
 Evidencia de las diferentes fases que paso el proyecto hasta llega a ser “Precarias”:
 
-imagen
 
-video / audio
+![resultado](imagenes/proceso/proceso-1.jpg)
+![resultado](imagenes/proceso/proceso-3.jpg)
+![resultado](imagenes/proceso/proceso-2.jpg)
+![resultado](imagenes/proceso/proceso-2.jpeg)
+
+video: https://youtube.com/shorts/MB089a_Y4Zo?feature=share
 
 ## aprendizajes y errores
 
