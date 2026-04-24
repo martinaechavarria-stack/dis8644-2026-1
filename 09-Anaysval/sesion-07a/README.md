@@ -24,6 +24,16 @@ Aquí intenté dimensionar cómo se vería en tamaño real y lo dibujé en mi te
 
 ![foto](./imagenes/4bocetos.jpg)
 
+### Procesos Autocad y Rhino
+
+![foto](./imagenes/pez.png)
+
+![foto](./imagenes/cabeza.png)
+
+![foto](./imagenes/cuerpo.png)
+
+![foto](./imagenes/ambos.png)
+
 Fotito extra de mi ayudante Miko que se metió a la caja donde guardábamos las protoboards
 
 ![foto](./imagenes/miko.png)
