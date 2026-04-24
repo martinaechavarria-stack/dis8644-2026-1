@@ -14,7 +14,7 @@ El ciclo del sonido comienza con un chip 555 que marca el pulso (clock), el cual
 
 La secuencia se percibe dinámica, produciendo sonidos agudos, nerviosos y repetitivos. Su sonoridad transita entre una alarma insistente y la señal errática de una nave espacial, creando momentos de tensión y espacios de silencio que rompen los patrones creados. 
 
-[![final](./imagenes/la-caja.png)]([target-url](https://youtube.com/shorts/fcjKkdh8bFI?feature=share))
+[![final](./imagenes/la-caja.png)](https://youtube.com/shorts/fcjKkdh8bFI?feature=share)
 
 ## Circuito base 
 
@@ -203,7 +203,7 @@ flowchart TD
     style OFF fill:#888780,color:#fff
 ```
 
-[![final](./imagenes/la-caja.png)]([target-url](https://youtube.com/shorts/2OlexzJCbLg?feature=share))
+[![final](./imagenes/la-caja.png)]((https://youtube.com/shorts/2OlexzJCbLg?feature=share))
 ![final](./imagenes/la-caja1.png)
 ![final](./imagenes/la-caja2.png)
 
@@ -230,9 +230,9 @@ Las resistencias y los LEDs interfieren con el funcionamiento correcto del sinte
 
 En la sesión 06b logramos obtener un sonido similar al de un arcade antiguo, lo que nos motivó a tomar esa referencia como objetivo para la entrega final. Sin embargo, durante la sesión 07a, debido a ciertas modificaciones en el circuito, no fue posible recuperar ese sonido inicial. Posteriormente, con la ayuda de Sebastián Sáez en un trabajo posterior a la sesión, logramos encontrar una configuración sonora que nuevamente llamó nuestra atención y se alineó con la propuesta buscada.
 
-[![antiguo](./imagenes/antiguo.jpg)]([target-url](https://youtube.com/shorts/4vf9a5yF5DE))
-[![antiguo](./imagenes/antiguo.png)]([target-url](https://youtube.com/shorts/4vf9a5yF5DE))
-[![final](./imagenes/la-caja1.png)]([target-url](https://youtube.com/shorts/2OlexzJCbLg?feature=share))
+[![antiguo](./imagenes/antiguo.jpg)]((https://youtube.com/shorts/4vf9a5yF5DE))
+[![antiguo](./imagenes/antiguo.png)]((https://youtube.com/shorts/4vf9a5yF5DE))
+[![final](./imagenes/la-caja1.png)]((https://youtube.com/shorts/2OlexzJCbLg?feature=share))
 
 ## Conclusiones
 
