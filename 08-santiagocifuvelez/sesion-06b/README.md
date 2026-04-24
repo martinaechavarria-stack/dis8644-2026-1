@@ -29,7 +29,7 @@ Esquemático de realización de que se necesitaba estabilizar el circuito:
 ![condensadores agregados](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/esquema-modificado.jpeg)
 
 Esquemático formalizado:  
-![Esquématico corregido por el profe misa](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/esquematico4pasosnuevo.png)
+![Esquemático corregido por el profe misa](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/esquematico4pasosnuevo.png)
 
 ## 3.	Trabajo en solemne 01 
 
@@ -44,10 +44,20 @@ Así que use condensadores de 0.47uf.
 
 Period.
 
+![yo en casa antes de pedir ayuda](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/yo-en-casa.jpeg)  
+
+Video de mi pidiendo ayuda:  
+https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/video-pidiendo-ayuda.mp4   
+
+![SOS respondido por el profe aaron](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/ayuda-profe-aaron.jpeg)
+
+Luego, al MUT para planear, mostrar y enseñar a mi grupo lo realizado en casa: 
+
 ![yo en el metro con precarias en la mano](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/subway-mut.jpeg)
 ![proceso de trabajo en el cc](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/working-in-the-mut.jpeg)
 ![Cuando terminamos, y todo estaba bien](https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/precarias-funciono.jpeg)
 
 **She's alive:**
 
+Video de precarias viva:  
 https://github.com/santiagocifuvelez/dis8644-2026-1/blob/main/08-santiagocifuvelez/sesion-06b/imagenes/precarias-con-vida.mp4
