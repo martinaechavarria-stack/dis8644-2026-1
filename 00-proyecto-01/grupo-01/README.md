@@ -64,6 +64,20 @@ incluir texto e imágenes sobre cableado, pruebas, resultados obtenidos.
 ![]()
 ![]()
 
+4steps synth
+
++ Nuestro desarrollo: 
+
+Desde el día martes 14 de abril, sesión 6a, desarrollamos el circuito en grupo durante las clases. Reiteradas veces rehicimos y analizamos el circuito pero no logró sonar del modo que debía, este no producía ningún sonido.
+
+En el primer intento la secuencia de luces leds se terminaba la secuencia de prendido y apagado con un reatraso. Para aclarar el circuito de los leds debían  de ser un apagado y encendido espontaneo, lo cuál no nos resultó en nuestro primer intento de desarrollo en la protoboard. Luego pudimos encontrar nuestro error en la protoboard, lo resolvimos y  funcionó con la secuencia y frecuencia adecuada.
+
+Al momento de conectar el clock generator y el sintetizador notábamos que todo iba con los resultado esperados, las luces led se prendían y llegaba el voltaje por todo el conjunto de circuitos. Pero conectando el parlante y esperando a que se produjera el sonido, no sonaba nada más que un leve "cck" por menos de un segundo.
+
+Reordenamos todos los cables por color, cambiamos los chips usados nes555, 4017 y 4093B e incluso cambiamos componentes básicos como la batería debido a una posibilidad de carga baja resultando en un bajo voltaje no suficiente para funcionar y hacer ruido.
+
+Rehicimos y probamos de todo con el circuito en la protoboard pero nunca nos resultó.
+
 
 ## Modificaciones realizadas a los circuitos originales
 
