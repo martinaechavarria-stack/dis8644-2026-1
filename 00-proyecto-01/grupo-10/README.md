@@ -30,7 +30,13 @@ Ya que este circuito está basado en el esquemático que se nos pasó en clases.
 Y por otro lado:
 Tenemos el tema de la carcasa, la cual es diseñada tanto para la practicidad como por la comodidad del usuario que vaya a manipularlo, con una materialidad de cartón a nuestra disposición y variados métodos para hacer las conexiones, tomamos en cuenta cada variable para crear un sintetizador estable y constante para el disfrute del usuario.
 
-![Foto Impresiones 3D](./imagenes/xxxx)
+![555](./imagenes/555.jpeg)
+
+![4093](./imagenes/4093.jpeg)
+
+![4017](./imagenes/4017.jpeg)
+
+![386](./imagenes/386.jpeg)
 
 ## proceso y resultados del reloj y secuenciador
 
@@ -68,11 +74,7 @@ Pero lo importante es que con ayuda y descartando posibilidades pudimos hacer qu
 
 ![Foto Impresiones 3D](./imagenes/xxxx)
 
-![Foto Impresiones 3D](./imagenes/xxxx)
 
-![Foto Impresiones 3D](./imagenes/xxxx)
-
-![Foto Impresiones 3D](./imagenes/xxxx)
 
 ## proceso y resultados de osciladores y amplificador
 
@@ -94,6 +96,7 @@ Una vez visto que el sintetizador empezó a producir frecuencias audibles  nueva
 
 ![Foto Impresiones 3D](./imagenes/xxxx)
 
+
 ## modificaciones realizadas a los circuitos originales
 
 1. En el chip 4093 se cambiaron los condensadores de 1uf y se integraron una mayor cantidad de capacitores en serie de distintos valores.
@@ -112,7 +115,11 @@ Una vez visto que el sintetizador empezó a producir frecuencias audibles  nueva
 
 La primera decisión que se tomó fue que la protoboard debe encajarse en la base, evitando usar algún adhesivo, todo esto con el fin de obtener acceso directo a las conexiones, para lograr mantenimientos inesperados. Luego adoptamos una forma curva, alejarnos de algo tan recto, como los sintes tradiciones en cajas tan ortogonales. Además se considero que cada chip tuviera su propia protoboard y por ende su propia caja, por lo que para lograrlo (y por tiempo) se decidió realizarlo mediante corte láser cada una de ellas, sumado a esto se implementaron terminales impresas en 3D para lograr mayor orden de los componentes.
 
-![Foto Impresiones 3D](./imagenes/xxxx)
+![render](./imagenes/render.png)
+
+![carcasa](./imagenes/render-carcasas.png)
+
+![proceso](./imagenes/proceso-01.jpeg)
 
 Dentro de la experimentación concluimos que en el uso de potenciómetros es ideal tenerlos conectados mediante cables a la protoboard, esto es debido a la mayor manipulación que nos permite. Sumado a esto, tenemos el hecho de tener que solucionar el soporte del parlante, por lo que se optó por seguir la misma línea de tener una caja de cartón que cumpla la misma lógica constructiva.
 
@@ -122,9 +129,12 @@ Dentro de la experimentación de los circuitos y sus respectivas cajas, se puede
 
 Se inició el trabajo de la fabricación de los módulos individuales para cada chip, donde debido a fallos de cálculo tuvimos que repetir el proceso de corte láser. Dentro del armado se consideró la utilización de un puerto donde se pudieran realizar la conexión entre cada módulo, un ejemplo de esto es la unión de CLOCK y SINTETIZADOR. Para mantener mayor control de estas conexiones se decidió hacer lo posible por estandarizar los colores, es decir que ciertas uniones modulares utilizarían colores predeterminados para evitar el error humano
 
+![circuito-01](./imagenes/circuito-01.jpeg)
+
+
 
 ## resultados finales
-FALTA TEXTOOOO
+FALTA TEXTOOOO-lo agregaremos ahora
 
 [![error-de-prueba](./imagenes/error-de-prueba.jpg)](https://youtube.com/shorts/9d-iETjBh5E?feature=share)
 
@@ -148,9 +158,6 @@ FALTA TEXTOOOO
 
 [![prueba2-final](./imagenes/2da-prueba-resultado.jpg)](https://youtu.be/D56QWDAkTL0)
 
-![Foto Impresiones 3D](./imagenes/xxxx)
-
-![Foto Impresiones 3D](./imagenes/xxxx)
 
 ## aprendizajes y errores
 
@@ -169,6 +176,8 @@ De hecho tuvimos muchísimos errores en el transcurso de las clases y antes de l
 Por ejemplo: si el LED del 555 no funcionaba, podía ser por variados factores: entre los condensadores cerámicos, el potenciómetro, las resistencias o los μF de los condensadores y así con todo el sintetizador.
 
 por lo que curiosamente, del error terminamos aprendiendo más, de que si todo hubiera salido bien desde un principio.
+
+![proceso-00](./imagenes/proceso-00.jpeg)
 
 
 ## conclusiones
