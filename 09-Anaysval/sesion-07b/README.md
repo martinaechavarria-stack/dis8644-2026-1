@@ -8,6 +8,7 @@ En la presentación me puse muy nerviosa ya que me da pánico hablar frente a mu
 
 Me gustaría mejorar en no ponerme tan nerviosa al presentar, para poder explicar mejor todo mi proceso y que los demás entiendan bien el proyecto ( ◡̀_◡́)ᕤ
 
+A pesar de todo, quedé muy contenta con la entrega y con todo lo que he podido aprender estas semanas.
 
 ### Fotos Pescado Rabioso
 
