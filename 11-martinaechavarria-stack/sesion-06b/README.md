@@ -7,7 +7,7 @@ Regulador/limitador de voltaje (78): Como dice su nombre limita o regula el volt
 
 
 **Actividad de la clase**
--Vamos a usar para la sloemne un circuito llamado NANDulator, se compone de 4 chips; un 386, un 555, un 4093 y un 4017.
+-Vamos a usar para la sloemne un circuito llamado NANDulator, se compone de 2 chips; un 386 y un 4093.
 El sonido que produce el circuito es variado, con el potenciometro puede cambiar estrategicamente dependiendo de los 6 potenciometros que posee.
 
 
