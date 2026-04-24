@@ -23,6 +23,11 @@ imagen del sintetizador en su contexto
 
 audio o video del sintetizador en acción
 
+![]()
+
+![]()
+
+
 ## Componentes
 
 En este proyecto utilizamos diferentes componentes cada uno para funciones especificas los cuales son:
@@ -47,18 +52,27 @@ Ademas diferentes chips, siendo estos:
 con chips 555 y 4017
 
 incluir texto e imágenes sobre cableado, pruebas, resultados obtenidos.
+![]()
+![]()
+
 
 ## Proceso y resultados de osciladores y amplificador
 
 con chips 4093 y 386
 
 incluir texto e imágenes sobre cableado, pruebas, resultados obtenidos.
+![]()
+![]()
+
 
 ## Modificaciones realizadas a los circuitos originales
 
 incluir texto, imágenes sobre modificaciones realizadas a los circuitos originales, incluyendo el proceso de diseño, pruebas y resultados obtenidos.
 
 incluir modificaciones en posición, chips, parámetros, valores, etc.
+![]()
+![]()
+
 
 ## Carcasas de cartón
 
@@ -66,25 +80,40 @@ textos, imágenes
 
 incluir origen de materiales, decisiones de posiciones de los componentes, decisiones estéticas, pruebas, resultados obtenidos.
 **CARTON DE DESECHOS, CINTA GAFFER COMO FORMA DE ACERCARSE A LAS CARCASAS DE ALUMINIO EN LAS QUE SUELEN ESTAR LOS EFECTOS MODULARES Y PERILLAS A LO LOCO/PARLANTE COLGANDO PORQUE QUEREMOS SALIR UN POCO DE LO COMODO(?) O CONVENIENTE(???)**
+![]()
+![]()
+
 
 ## Interconexión entre módulos
 
 textos, imágenes, diagramas de interconexión
+![]()
+![]()
+
 
 ## Resultados finales
 
 texto
 
 imagen
+![]()
+![]()
 
 video / audio
+![]()
+![]()
 
 ## Aprendizajes y errores
 
 las mejores lecciones aprendidas y los errores más comunes y cómo los resolvieron
 
 **NO LOGRAMOS HACER FUNCIONAR EL 4STEPSYNTH COMPLETAMENTE, PERO SI LOGRAMOS EL NANDULATOR, COSTO UNIR EL FILTRO/EFECTO DEL 4093 Y AL AMP, NOS COSTO ENTENDER COMO FUNCIONABA EL FILTRO, LA UNION DE CABLES ETC...**
+![]()
+![]()
 
 ## Conclusiones
 
 sobre modularidad, materialidad, trabajo en equipo, trabajo electrónico, trabajo maquinal.
+![]()
+![]()
+
