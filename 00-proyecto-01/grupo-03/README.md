@@ -56,7 +56,7 @@ textos, imágenes, diagramas de interconexión
 
 ## resultados finales
 
-texto
+Como resultado final para esta primera parte del proyecto, tenemos un sintetizador el cual su circuito esta dentro de una caja de cartón reciclada, en donde en la parte superior lo que primero vemos es el parlante, luego a sus lados dos potenciómetros y por el frente de este parlante tenemos las LEDS que van prendiendose mediante el patrón de sonido que podemos crear. En la parte lateral tenemos 4 potenciómetros, quienes son los responsables de crear el ritmo que deseemos. 
 
 imagen
 
@@ -70,4 +70,10 @@ Una de las mejores lecciones que aprendimos es que no todo en el mundo es perfec
 
 ## conclusiones
 
-sobre modularidad, materialidad, trabajo en equipo, trabajo electrónico, trabajo maquinal.
+A modo de conclusión, podemos afirmar que el trabajo en equipo fue bastante positivo, ya que existió una muy buena relación y comunicación entre todos los integrantes. Cada uno aportó al equipo, ya fuera conectando cables, ayudando a interpretar los esquemáticos o registrando cada etapa del proceso. Sin embargo, no se trató de roles rígidos, sino que como grupo procuramos colaborar de manera conjunta en las distintas tareas del proyecto.
+
+En cuanto al desarrollo del proyecto, podemos señalar que enfrentamos diversas complicaciones y errores, los cuales supimos resolver, ya sea de manera autónoma o solicitando apoyo a otros equipos. Una estrategia que resultó especialmente útil fue revisar cada esquema paso a paso, verificando que todas las conexiones estuvieran correctas; en caso contrario, optábamos por comenzar nuevamente o comprobar el funcionamiento de las partes por separado.
+
+Durante el proceso también fue necesario adquirir más materiales, como dos protoboards de mayor tamaño, circuitos integrados (“chips”) adicionales y cables Dupont, entre otros.
+
+En términos generales, como equipo quedamos bastante conformes con el resultado obtenido. Además, planeamos seguir trabajando en este proyecto a lo largo del semestre. Considerando que este fue nuestro primer acercamiento a la electrónica y a los sintetizadores, valoramos positivamente esta experiencia, teniendo en cuenta los errores cometidos y las lecciones aprendidas.
