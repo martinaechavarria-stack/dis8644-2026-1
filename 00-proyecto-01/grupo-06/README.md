@@ -144,9 +144,9 @@ Tras completar el ajuste de los condensadores, el siguiente paso fue sustituir e
 Al día siguiente, ocurrieron problemas en el circuito, por lo que volvió a armar y se decidió dejar el sensor en vez de el potenciador en el chip 555, y seguir con los mismos elementos que el dia anterior, solo modulando los colores y identificarlos en un dibujo esquemáticos de cada protoboard para identificarse.
 
 ### Final:
-Al aprender cómo soldar, logramos proponer una nueva versión de carcasa por la mayor seguridad de que no se iban a desconectar ni mover nada, permitiéndonos así soldar los potenciómetros y el parlante de forma fija, eliminando así el riesgo de que los cables chocaran entre si, ya que nos desconectaba el circuito. Además de cambiar a todos los potenciadores de que están conectadas al chip 4093 por condensadores de 0,47 como decisión grupal por gustos de sonido y se notaban la diferencia de sonido independiente de que fueran los condenzadores iguales.
+Al aprender cómo soldar, logramos proponer una nueva versión de carcasa por la mayor seguridad de que no se iban a desconectar ni mover nada, permitiéndonos así soldar los potenciómetros y el parlante de forma fija, eliminando así el riesgo de que los cables chocaran entre si, ya que nos desconectaba el circuito. Además de cambiar a todos los potenciadores de que están conectadas al chip 4093 por condensadores de 0,47 como decisión grupal por gustos de sonido y se notaban la diferencia de sonido independiente de los condenzadores. 
 
-En cuanto a la carcasa, decidimos mantener los potenciómetros y el fotosensor seleccionados previamente, ya que preferíamos que nos permitía controlar la velocidad. Ubicamos el sensor en la parte superior de la carcasa para facilitar su interacción con la luz, mientras que los botones de los potenciómetros se instalaron en el frente y el control de volumen se situó en el lateral izquierdo.
+En cuanto a la carcasa, decidimos mantener los potenciómetros y el fotosensor seleccionados previamente, ya que preferíamos que nos permitía controlar la velocidad. Ubicamos el sensor en la parte superior de la carcasa para facilitar su interacción con la luz, mientras que los botones de los potenciómetros se instalaron en el frente y el control de volumen se situó en el lateral izquierdo y también para saber si esta encendido, colocamos en el frente la luz del 555. 
 Finalmente, para solucionar el problema recurrente de desconexión entre la batería y las líneas de alimentación, optamos por soldar los terminales directamente a la protoboard donde se encuentra el chip 555. Esto garantizó la estabilidad del flujo eléctrico, dejando la batería accesible por fuera del sistema para que solo tuviera que conectarse al momento de la solemne.
 
 
@@ -160,7 +160,7 @@ video: https://youtube.com/shorts/y3wmMXkBmb8?feature=share
 
 video 2: https://youtube.com/shorts/o5TqyCJIAiU?feature=share
 
-## carcasas de cartón
+## carcasa de cartón
 
 Como grupo decidimos que las interfaces estuvieran distribuidas por paneles para optimizar el uso. En el frente se ubican los cuatro potenciómetros que modifican el timbre del sonido, mientras que en un costado izquierdo, a la misma altura, se instaló el potenciómetro encargado de modular el volumen general de Precarias.
 
