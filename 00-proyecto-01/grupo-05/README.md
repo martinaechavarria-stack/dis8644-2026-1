@@ -117,6 +117,12 @@ En esta fase final, utilizamos el integrado CD4093 para convertir las señales d
 
 Mezcla de Salida: Las salidas de audio de cada nota (Pines 3, 4, 10 y 11) se unificaron a través de resistencias de 1kΩ (marrón-negro-rojo) para proteger el circuito y preparar la señal para la etapa de amplificación o salida de audio.
 
+
+
+
+
+
+
 -----------------------------------
 
 ## modificaciones realizadas a los circuitos originales
@@ -218,40 +224,136 @@ En conjunto, la carcasa permite *contener el sistema, ordenar la interacción y 
 
 ## interconexión entre módulos
 
-textos, imágenes, diagramas de interconexión
+## Interconexión entre módulos
+
+La interconexión del sistema se resolvió a partir de la necesidad de coordinar tres funciones principales: generación de pulso, secuenciación y producción de sonido. Más que módulos aislados, el circuito se organizó como una red continua donde cada etapa depende directamente de la anterior.
+
+![interconexion protoboard](imagenes/interconexion.jpg)
+
+### Flujo de señal
+
+El recorrido principal del sistema se estructura de la siguiente manera:
+
+1. **Reloj (NE555)**  
+   Genera una señal cuadrada constante desde el pin 3, que actúa como pulso base del sistema.
+
+2. **Secuenciador (CD4017)**  
+   Recibe el pulso del 555 y lo distribuye en sus salidas (Q0–Q3), activando cada paso de la secuencia de forma sucesiva.
+
+3. **Etapa de conmutación (Transistores 2N2222)**  
+   Cada salida del 4017 se conecta a la base de un transistor, permitiendo activar o bloquear el paso de señal hacia los osciladores.
+
+4. **Osciladores (CD4093)**  
+   Los transistores habilitan cada compuerta NAND, generando una frecuencia específica por paso.
+
+5. **Mezcla y salida (LM386)**  
+   Las señales se unifican mediante resistencias y se envían a la etapa de amplificación.
+
+---
+
+### Interconexión física y módulos independientes
+
+El sistema se distribuye en dos protoboards de 400 puntos, conectadas entre sí mediante puentes de señal y alimentación. Esta separación permitió organizar el circuito por funciones, pero manteniendo su continuidad eléctrica.
+
+La etapa de amplificación se resolvió como módulos independientes: cada LM386 se encuentra en una protoboard separada, junto a su respectivo parlante. Estos módulos están contenidos en pequeñas cajas individuales, lo que permite moverlos físicamente y ubicarlos a cada lado de la carcasa principal.
+
+Esta decisión introduce una dimensión espacial al sonido, separando la salida en dos puntos y evitando concentrar toda la carga en un solo canal.
+
+---
+
+### Organización del cableado
+
+La interconexión se resolvió mediante un sistema de puentes entre protoboards, lo que permitió separar físicamente las etapas pero mantener su continuidad eléctrica.
+
+- Los cables largos (principalmente naranjos) funcionan como enlaces de señal entre módulos.
+- Las líneas de alimentación (VCC y GND) se distribuyen de forma paralela a lo largo de ambas placas.
+- Las conexiones verticales permiten bajar la señal desde el secuenciador hacia la etapa de transistores y osciladores.
+
+Esta disposición, aunque funcional, evidenció que el orden visual no siempre coincide con el orden eléctrico. Durante el proceso, pequeños cambios en la posición o conexión de los cables afectaron directamente la continuidad de la señal, generando pérdidas de sonido o fallas en la activación de los módulos.
+
+---
+
+### Alimentación
+
+El sistema se alimenta mediante baterías que se mantienen ocultas dentro de la carcasa. Esta decisión responde a una intención de limpiar visualmente el objeto y evitar interferencias en la interacción, manteniendo visibles únicamente los elementos necesarios para su uso (controles y retroalimentación visual).
+
+---
+
+### Consideraciones
+
+La interconexión no se definió solo desde el esquema, sino también desde la prueba en protoboard. Esto implicó:
+
+- Ajustar recorridos de señal en función del espacio físico
+- Reorganizar conexiones para evitar cruces críticos
+- Verificar constantemente continuidad y puntos de tierra
+
+En este sentido, el cableado deja de ser un elemento neutro y pasa a ser parte activa del comportamiento del sistema.
 
 ## resultados finales
 
-texto
+## Resultados finales
 
-imagen
+El sistema logró funcionar de manera estable en sus etapas principales: el generador de pulsos (NE555), el secuenciador (CD4017) y la activación de los osciladores (CD4093) respondieron correctamente, permitiendo una lectura clara del ritmo y la secuencia a través de los LEDs. Sin embargo, la salida de audio no se concretó, ya que los parlantes no lograron emitir sonido. Esta falla se relaciona con la interconexión y reorganización del circuito, donde la señal de salida no llegó correctamente a la etapa de amplificación. A pesar de esto, el comportamiento general del sistema permitió validar su lógica de funcionamiento y la relación entre sus módulos.
 
-video / audio
+https://github.com/user-attachments/assets/050b8553-8a19-471f-b7c5-bad8b6a4def9
 
 ------------------------------------------
 
-## Aprendizajes y errores
+## aprendizajes y errores
 
-A lo largo del desarrollo del OPEN-BEAT KRAFT, enfrentamos varios desafíos técnicos que nos permitieron profundizar en el funcionamiento de la electrónica analógica y digital. Estos fueron los errores más comunes y cómo los resolvimos:
-1. Estabilidad del Reloj (NE555)
+A lo largo del desarrollo del OPEN-BEAT KRAFT, el proceso estuvo marcado por pruebas, fallas y ajustes que permitieron comprender el comportamiento del circuito más allá de su esquema.
 
-    El error: El circuito presentaba ruidos e interferencias que hacían que el pulso no fuera constante.
-    La solución: Instalamos un capacitor cerámico (lenteja 103) entre los pines 1 y 8. Esto filtró el ruido y estabilizó la señal por completo. Aprendimos que los capacitores de desacoplo son vitales para el buen funcionamiento de los integrados.
+### Estabilidad del reloj (NE555)
 
-2. Control de Velocidad y Percepción Visual
+**El error:** El pulso presentaba ruido e inestabilidad, afectando directamente al resto del sistema.  
+**La solución:** Se incorporó un capacitor de desacoplo (10nF) entre VCC y GND.  
+**Aprendizaje:** La estabilidad de la alimentación es fundamental, ya que pequeñas variaciones afectan todo el circuito.
 
-    El error: Al usar un capacitor electrolítico ("tambor") de 1uF, el parpadeo era tan rápido que los LEDs del secuenciador parecían estáticos. Además, una resistencia de 10kΩ en el pin 7 hacía que el ritmo fuera demasiado lento incluso con el potenciómetro al máximo.
-    La solución: Cambiamos el capacitor a uno de 10uF para lograr un tempo musical perceptible y sustituimos la resistencia por una de 1kΩ. Esto nos dio el "punto dulce" de control sobre el B100K.
+---
 
-3. Lógica del Secuenciador (CD4017)
+### Control de velocidad y percepción
 
-    El error (Orden): Los LEDs encendían en desorden porque asumimos que los pines físicos seguían el orden de las notas.
-    La solución: Mapeamos las salidas reales del chip (Pines 3, 2, 4 y 7) para sincronizar la secuencia con el pulso del 555.
-    El error (Reset y Enable): El circuito no avanzaba o se cortaba antes de la cuarta nota.
-    La solución: Descubrimos la importancia del Pin 13 (Clock Enable), que debe ir a negativo para que el chip funcione, y del Pin 15 (Reset), que conectamos al Pin 10 para cerrar el ciclo de 4 notas y crear un bucle infinito.
+**El error:** El pulso era demasiado rápido o demasiado lento para ser percibido correctamente en los LEDs.  
+**La solución:** Se ajustaron los valores de resistencia y se utilizó un capacitor de 10uF.  
+**Aprendizaje:** No basta con que el circuito funcione; también debe ser legible y controlable desde la experiencia.
+
+---
+
+### Lógica del secuenciador (CD4017)
+
+**El error:** Las salidas no seguían un orden intuitivo y el ciclo no se cerraba correctamente.  
+**La solución:** Se mapearon las salidas reales (pines 3, 2, 4 y 7) y se conectó el reset para generar un bucle de 4 pasos.  
+**Aprendizaje:** El comportamiento real de los componentes no siempre coincide con lo esperado desde el esquema.
+
+---
+
+### Interconexión y reorganización del circuito
+
+**El error:** Al desarmar el circuito para ordenarlo visualmente, se perdió el funcionamiento general, especialmente en la salida de audio.  
+**La solución:** Se revisaron conexiones críticas, continuidad y distribución de tierra.  
+**Aprendizaje:** La disposición física del circuito es parte de su funcionamiento; el orden visual puede alterar el orden eléctrico.
+
+<img width="3893" height="2189" alt="error-proyecto-01-grupo-05" src="https://github.com/user-attachments/assets/cba8b0c8-e2e1-4e74-89d1-a935593358a3" />
+
+---
+
+### Salida de audio y amplificación
+
+**El error:** A pesar de que el resto del sistema funcionaba, los parlantes no lograron emitir sonido.  
+**La posible causa:** Problemas en la conexión entre la etapa de mezcla y los módulos de amplificación (LM386), o pérdida de señal en la interconexión entre protoboards.  
+**Aprendizaje:** La etapa de salida es especialmente sensible, y requiere continuidad clara de la señal y correcta distribución de alimentación y tierra.
+
+---
+
+En conjunto, estos errores permitieron entender el circuito como un sistema interdependiente, donde cada decisión (tanto eléctrica como física) afecta directamente el resultado.
+
 
 ---------------------------------------------
 
 ## conclusiones
 
-sobre modularidad, materialidad, trabajo en equipo, trabajo electrónico, trabajo maquinal.
+El desarrollo del OPEN-BEAT KRAFT permitió entender el circuito desde sus errores y ajustes. Los desarmes y fallas evidenciaron su sensibilidad al cableado y a la disposición física, mostrando que el orden es tanto visual como eléctrico.
+
+La interconexión entre protoboards y los módulos de salida independientes (LM386 + parlante) confirmó que el recorrido de la señal y la ubicación de los componentes afectan directamente el resultado. La separación en módulos móviles y el ocultamiento de las baterías ayudaron a ordenar la interacción sin exponer el sistema.
+
+Las modificaciones implementadas no solo resolvieron problemas técnicos, sino que permitieron construir un sistema más claro, controlable y abierto a seguir siendo ajustado.
